@@ -1,0 +1,99 @@
+body {
+  font-family: Calibri, sans-serif;
+}
+.frame {
+  background-color: #DC010108;
+  border-radius: 15px;
+  padding: 4px 8px;
+  width: 490px;
+  border: 3px solid #000;
+  height: 320px;
+}
+.frame .top {
+  display: flex;
+  height: 60px;
+}
+.top .grb {
+  flex-grow: 2;
+  text-align: center;
+  align-self: center;
+  padding-top: 5px;
+}
+.top .rs-lk {
+  flex-grow: 3;
+}
+.rs {
+  height: 30px;
+  padding-left: 105px;
+  padding-top: 5px;
+}
+.lk {
+  height: 30px;
+  padding-left: 110px;
+}
+.m-slova {
+  font-size: 10px;
+  line-height: 9px;
+}
+
+.v-slova {
+  font-size: 18px;
+  line-height: 14px;
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
+
+.pol-reg {
+  display: flex;
+}
+.pol {
+  flex-grow: 1;
+}
+.rbr {
+  flex-grow: 1;
+}
+.middle {
+  display: flex;
+  height: 210px;
+}
+.photo {
+  flex-grow: 1.5;
+
+}
+.photo img {
+  padding-top: 20px;
+  width: 150px;
+  height: 180px;
+}
+.data {
+  flex-grow: 6.25;
+}
+.grb-photo {
+  flex-grow: 1.25;
+}
+.m-grb {
+  padding-top: 40px;
+
+}
+.m-photo {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.photo img {
+
+}
+.footer {
+  display: flex;
+  height: 40px;
+}
+.mi {
+  flex-grow: 3;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.pot {
+  flex-grow: 1;
+  padding-top: 10px;
+}

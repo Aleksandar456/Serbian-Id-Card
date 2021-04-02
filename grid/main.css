@@ -3,6 +3,7 @@ body {
 }
 
 .frame {
+  background-color: #DC010108;
   border-radius: 15px;
   padding: 4px 8px;
   display: grid;
