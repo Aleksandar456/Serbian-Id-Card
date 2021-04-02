@@ -1,0 +1,119 @@
+body {
+  font-family: Calibri, sans-serif;
+}
+
+.frame {
+  border-radius: 15px;
+  padding: 4px 8px;
+  display: grid;
+  width: 490px;
+  /*height: 305px;*/
+  border: 3px solid #000;
+  grid-template:  "mg pp rs  rs  rs"
+                  "mg pp lk  lk  lk"
+                  "vs vs pre pre vg"
+                  "vs vs ime ime vg"
+                  "vs vs dr  dr  vg"
+                  "vs vs pol rbr ms"
+                  "vs vs di  di  ms"
+                  "vs vs dv  dv  ms"
+                  "mi mi mi  mi  pot";
+
+  grid-template-columns: 80px 80px 100px 100px 130px;
+  grid-template-rows: 30px 30px 35px 35px 35px
+                      35px 35px 35px 35px;
+}
+
+.mg {
+  grid-area: mg;
+  align-self: center;
+	justify-self: center;
+}
+
+.rs {
+  grid-area: rs;
+  align-self: center;
+}
+
+.lk {
+  grid-area: lk;
+  align-self: center;
+}
+
+.vs {
+  grid-area: vs;
+  align-self: center;
+	justify-self: center;
+}
+
+.pre {
+  grid-area: pre;
+  align-self: center;
+}
+
+.ime {
+  grid-area: ime;
+  align-self: center;
+}
+
+.vg {
+  grid-area: vg;
+  align-self: end;
+	justify-self: center;
+}
+
+.dr {
+  grid-area: dr;
+  align-self: center;
+}
+
+.pol {
+  grid-area: pol;
+  align-self: center;
+}
+
+.rbr {
+  grid-area: rbr;
+  align-self: center;
+}
+
+.ms {
+  grid-area: ms;
+  align-self: center;
+	justify-self: center;
+}
+
+.di {
+  grid-area: di;
+  align-self: center;
+}
+
+.dv {
+  grid-area: dv;
+  align-self: center;
+}
+
+.mi {
+  grid-area: mi;
+  align-self: center;
+}
+
+.pot {
+  grid-area: pot;
+  align-self: center;
+	justify-self: center;
+}
+
+.m-slova {
+  font-size: 10px;
+  line-height: 9px;
+}
+
+.v-slova {
+  font-size: 18px;
+  line-height: 14px;
+  font-weight:600;
+}
+.bold {
+  font-weight: bold;
+}
